@@ -1,0 +1,48 @@
+.wrapper + .wrapper {
+  margin-top: 80px;
+}
+
+.picture-container {
+  background-color: #e1e7ed;
+  border-radius: 16px;
+  display: flex;
+  padding: 52px 20px 20px 20px;
+  & .picture {
+    width: 280px;
+    height: 240px;
+    transform: rotate(-25deg);
+    margin: auto;
+  }
+}
+
+.info {
+  & .name {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 12px 0;
+  }
+
+  & .des {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: justify;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+
+  & .price {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+}
+
+.check-btn {
+  width: 37px;
+  height: 37px;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+
+
+.divider {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 739px) {
+	.wrapper {
+    flex-direction: column;
+  }
+  .divider {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}

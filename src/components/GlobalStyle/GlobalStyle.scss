@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --white-color: #fff;
+  --text-color: #303841;
+  --black-color: #303841;
+  --primary-color: #F6C90E;
+  --gray-color: #777777;
+  --text-dark-color: #001a33;
+  --border-radius: 28px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+}
+button,
+input,
+textarea,
+select,
+option {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: "Rubik", sans-serif;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
