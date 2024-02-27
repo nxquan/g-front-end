@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export const instance = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://g-back-end.onrender.com',
   timeout: 1000,
 })
